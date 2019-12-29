@@ -1,0 +1,15 @@
+person:
+  name: huangxj
+  age: 31
+  birth: 1989/05/16
+  boss: true
+  books:
+    - SpringBoot入门指南
+    - JVM深入学习
+    - 并发编程的艺术
+  attrs:
+    eye: big
+    hair: short
+  hello:
+    name: hashiqi
+    age: 5
