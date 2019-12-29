@@ -15,9 +15,9 @@ public class HelloController {
     @RequestMapping("/sayHello")
     public String sayHello(){
         String s = "Hello " + hello + "!";
-        String s1 = "Hello " + hello + "!";
-        String s2 = "Hello " + hello + "!";
-        return s;
+        String s1 = "Hello " + hello + "1!";
+        String s2 = "Hello " + hello + "2!";
+        return s2;
     }
 
     public static void main(String[] args) {
