@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
 @SpringBootApplication
+//如果没有该注解，可以在类中，使用@Component等spring注解替换
 @EnableConfigurationProperties({Hello.class})
 public class HelloApplication {
 

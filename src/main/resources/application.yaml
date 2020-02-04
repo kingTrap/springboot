@@ -10,6 +10,6 @@ person:
   attrs:
     eye: big
     hair: short
-  hello:
-    name: hashiqi
-    age: 8
+#hello:
+#  name: hashiqi
+#  age: 8
