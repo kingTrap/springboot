@@ -2,6 +2,7 @@ package com.kingtrap.hello;
 
 import com.kingtrap.bean.Hello;
 import com.kingtrap.bean.Person;
+import com.kingtrap.controller.HelloController;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -20,6 +21,9 @@ public class HelloApplicationTests {
     @Autowired
     private Person person;
 
+    @Autowired
+    private HelloController helloController;
+
     @Test
     public void contextLoads() {
         System.out.println(hello);
@@ -33,5 +37,10 @@ public class HelloApplicationTests {
     @Test
     public void printPerson(){
         log.info(person.toString());
+    }
+
+    @Test
+    public void testSayHello(){
+        System.out.println(helloController.sayHello());
     }
 }
